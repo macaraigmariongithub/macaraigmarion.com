@@ -515,31 +515,6 @@ header{
     font-weight: 600;
 }
 
-.projects-img2{
-    filter: blur(1.5px);
-    -webkit-filter: blur(5px);
-}
-
-.projects-img3{
-    filter: blur(2px);
-    -webkit-filter: blur(40px);
-}
-
-.projects-img4{
-    filter: blur(2px);
-    -webkit-filter: blur(40px);
-}
-
-.projects-img5{
-    filter: blur(2px);
-    -webkit-filter: blur(40px);
-}
-
-.projects-img6{
-    filter: blur(2px);
-    -webkit-filter: blur(40px);
-}
-
 /*Contact Form*/
 
 .contact-form{
