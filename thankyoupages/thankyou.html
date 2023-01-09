@@ -11,66 +11,81 @@
     <style>
       body{
         background: #0e1b31;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
       .bx{
         font-size: 4rem;
         color: lawngreen;
       }
+        
+      .content{
+        position: relative;
+        max-width: 500px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+      }
+        
       .thankyou{
         text-align: center;
         align-items: center;
         justify-content: center;
         margin-top: 180px;
         color: #fefefe;
+        background: #2C74B3;
+        padding: 1rem 1rem 1rem 1rem;
+        border-radius: 1rem;
+        box-shadow: 1px 1px 20px rgba(20, 20, 120, 2);
       }
 
       .thankyou h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
+        font-weight: 800;
       }
 
       .thankyou h2{
-        font-size: 1.5rem;
-        font-family: cursive;
+        font-size: 1.2rem;
         color: #fefefe;
       }
 
       .thankyou h3 a{
-        font-size: 1.2rem;
-        font-weight: 600;
+        font-size: 1rem;
         color: #fff;
         padding: 1rem 1rem;
+        text-decoration: none;
       }
 
       button{
-        background: #2C74B3;
+        background: #11183a;
         padding: 12px 16px;
         border-radius: 0.4rem;
         border: none;
         cursor: pointer;
         transition-duration: 0.4s;
         text-decoration: none;
+        box-shadow: 1px 1px 20px rgba(0, 0 ,0, .5);
       }
       button:hover{
-        background: #11183a;
+        background: #2C74B3;
         transition: 0.3s all linear;
       }
         
     </style>
 </head>
 <body>
-    
-   <div class="thankyou">
-    <i class='bx bx-check-circle'></i>
-    <h1>Thank you!</h1>
-    <h2>Thanks for reaching out! 
-      <br>
-      Your message just showed up in my inbox. Talk to you soon!
-    </h2>
-
-    <h3><button><a href="https://macaraigmariongithub.github.io/macaraigmarion.com/index.html"> Back to Home </a></button></h3>
-
-  </div>
+    <div class="content">
+       <div class="thankyou">
+        <i class='bx bx-check-circle'></i>
+        <h1>Thank you!</h1>
+        <h2>Thanks for reaching out! 
+          <br>
+          Your message just showed up in my inbox. Talk to you soon!
+        </h2>
+        <h3><button><a href="https://macaraigmariongithub.github.io/macaraigmarion.com/index.html"> Back to Home </a></button></h3>
+        </div> 
+    </div>
    
 </body>
 </html>
